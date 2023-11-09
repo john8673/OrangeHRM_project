@@ -1,0 +1,14 @@
+{
+  "valid_username" : "Admin",
+  "invalid_username" : "Invalid username",
+  "valid_password" : "admin123",
+  "invalid_password" : "Invalid password",
+  "first_name" : "Harvey",
+  "middle_name" : "Reginald",
+  "last_name" : "Specter",
+  "dl_number" : "0264",
+  "dl_expiry_date" : "2024-11-20",
+  "ssn_number" : "12345",
+  "sin_number" : "67890",
+  "dob" : "1985-11-05"
+}
