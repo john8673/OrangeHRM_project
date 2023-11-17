@@ -73,7 +73,7 @@ class Login_Page:
         # WebDriverWait(self.login_page_driver, 10).until(expected_conditions.presence_of_element_located
         # ((By.XPATH, "//span[text()='Follow']")))
         # Used time.sleep as explicit wait didn't work
-        time.sleep(5)
+        time.sleep(10)
         # previously the twitter page had the title "OrangeHRM (@orangehrm) / X", it is now changed
         if self.login_page_driver.title == "Log in to X / X":
             return True
