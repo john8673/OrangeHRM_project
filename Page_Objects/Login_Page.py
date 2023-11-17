@@ -74,7 +74,8 @@ class Login_Page:
         # ((By.XPATH, "//span[text()='Follow']")))
         # Used time.sleep as explicit wait didn't work
         time.sleep(5)
-        if self.login_page_driver.title == "OrangeHRM (@orangehrm) / X":
+        # previously the twitter page had the title "OrangeHRM (@orangehrm) / X", it is now changed
+        if self.login_page_driver.title == "Log in to X / X":
             return True
 
     def youtube_hyperlink_click(self):

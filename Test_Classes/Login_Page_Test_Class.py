@@ -14,7 +14,7 @@ class LoginPageTestCase(unittest.TestCase):
         self.chrome_driver.maximize_window()
         self.chrome_driver.implicitly_wait(20)
         self.chrome_driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index")
-        open_file1 = open("C:\\Automation testing\\AT18\\Eshwar_sessions\\Test_Data\\test_data.json")
+        open_file1 = open("C:\\Automation testing\\AT18\\Project_one\\Test_Data\\test_data.json")
         self.json_dict = json.load(open_file1)
 
     def test_successful_login(self):
